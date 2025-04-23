@@ -4,99 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yony Bar-Magen</title>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Fira Code', monospace;
-      margin: 0;
-      background-color: #0f172a;
-      color: #e2e8f0;
-      line-height: 1.6;
-    }
-    header {
-      background: #1e293b;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      color: #7dd3fc;
-    }
-    header p {
-      font-size: 1.2rem;
-    }
-    section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    h2 {
-      color: #60a5fa;
-      margin-top: 2rem;
-    }
-    a {
-      color: #93c5fd;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background: #1e293b;
-      color: #94a3b8;
-    }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>Hola 👋, soy Yony</h1>
-    <p>Investigador | Ingeniero | Docente</p>
+<body class="bg-slate-900 text-slate-100 font-mono">
+  <header class="bg-slate-800 p-8 text-center">
+    <h1 class="text-4xl font-bold text-cyan-400">Hola 👋, soy Yony</h1>
+    <p class="text-lg mt-2 animate-pulse">Investigador | Ingeniero | Docente</p>
   </header>
 
-  <section>
-    <h2>🌱 Sobre mí</h2>
-    <p>Doctor en Ingeniería, docente e investigador en tecnologías como Fog Computing, robótica, e innovación educativa. Fundador de Eurekamps, plataforma educativa abierta.</p>
+  <main class="max-w-3xl mx-auto p-6">
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">🌱 Sobre mí</h2>
+      <p>Doctor en Ingeniería, docente e investigador en tecnologías como Fog Computing, robótica, e innovación educativa. Fundador de Eurekamps, plataforma educativa abierta.</p>
+    </section>
 
-    <h2>🎓 Formación Académica</h2>
-    <ul>
-      <li>Postdoctorado en Interacción Humano-Robot - Italian Institute of Technology</li>
-      <li>PhD en Ingeniería - Bar Ilan University, Israel</li>
-      <li>Máster en Tecnología Educativa y en Ingeniería del Software - Universidad de Alcalá</li>
-      <li>Ingeniero en Informática - Universidad de Alcalá</li>
-    </ul>
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">🎓 Formación Académica</h2>
+      <ul class="list-disc list-inside">
+        <li>Postdoctorado en Interacción Humano-Robot - Italian Institute of Technology</li>
+        <li>PhD en Ingeniería - Bar Ilan University, Israel</li>
+        <li>Máster en Tecnología Educativa y en Ingeniería del Software - Universidad de Alcalá</li>
+        <li>Ingeniero en Informática - Universidad de Alcalá</li>
+      </ul>
+    </section>
 
-    <h2>💼 Experiencia Profesional</h2>
-    <ul>
-      <li>Profesor en Comunidad de Madrid, U-TAD, Camilo José Cela</li>
-      <li>Investigador Postdoc en proyectos europeos (VOJEXT, APRIL)</li>
-      <li>Gestor de Proyectos y Tech Lead en BBVA y Banco Santander</li>
-      <li>Desarrollador de videojuegos móviles con J2ME</li>
-    </ul>
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">💼 Experiencia Profesional</h2>
+      <ul class="list-disc list-inside">
+        <li>Profesor en Comunidad de Madrid, U-TAD, Camilo José Cela</li>
+        <li>Investigador Postdoc en proyectos europeos (VOJEXT, APRIL)</li>
+        <li>Gestor de Proyectos y Tech Lead en BBVA y Banco Santander</li>
+        <li>Desarrollador de videojuegos móviles con J2ME</li>
+      </ul>
+    </section>
 
-    <h2>📚 Publicaciones y Premios</h2>
-    <ul>
-      <li>+10 artículos sobre Fog Computing, visión artificial y radar móvil</li>
-      <li>1º premio Orange UK 2009 por "Visual Shopping"</li>
-      <li>Reconocimiento en MIPTV Cannes 2013</li>
-    </ul>
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">📚 Publicaciones y Premios</h2>
+      <ul class="list-disc list-inside">
+        <li>+10 artículos sobre Fog Computing, visión artificial y radar móvil</li>
+        <li>1º premio Orange UK 2009 por "Visual Shopping"</li>
+        <li>Reconocimiento en MIPTV Cannes 2013</li>
+      </ul>
+    </section>
 
-    <h2>🌐 Proyectos y Redes</h2>
-    <ul>
-      <li><a href="https://eurekamps.com">Eurekamps</a></li>
-      <li><a href="https://www.youtube.com/@Eurekamps">Canal YouTube</a></li>
-      <li><a href="https://www.linkedin.com/in/4yony4/">Perfil en LinkedIn</a></li>
-    </ul>
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">🌐 Proyectos y Redes</h2>
+      <ul class="list-disc list-inside">
+        <li><a class="text-blue-400 hover:underline" href="https://eurekamps.com">Eurekamps</a></li>
+        <li><a class="text-blue-400 hover:underline" href="https://www.youtube.com/@Eurekamps">Canal YouTube</a></li>
+        <li><a class="text-blue-400 hover:underline" href="https://www.linkedin.com/in/4yony4/">Perfil en LinkedIn</a></li>
+      </ul>
+    </section>
 
-    <h2>📬 Contacto</h2>
-    <p>Email: <a href="mailto:4yony4@gmail.com">4yony4@gmail.com</a></p>
-  </section>
+    <section>
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">📬 Contacto</h2>
+      <p>Email: <a class="text-blue-400 hover:underline" href="mailto:4yony4@gmail.com">4yony4@gmail.com</a></p>
+    </section>
+  </main>
 
-  <footer>
+  <footer class="text-center text-slate-400 p-6 bg-slate-800">
     © 2025 Yony Bar-Magen Numhauser
   </footer>
 </body>
