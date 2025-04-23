@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,30 +25,88 @@
 </head>
 <body class="bg-slate-900 text-slate-100 font-mono">
   <header class="bg-slate-800 p-8 text-center">
-    <h1 class="text-4xl font-bold text-cyan-400 animate-fade">Hola 👋, soy Yony</h1>
-    <p class="text-lg mt-2 animate-pulse">Investigador | Ingeniero | Docente</p>
+    <h1 class="text-4xl font-bold text-cyan-400 animate-fade">Hello 👋, I'm Yony</h1>
+    <p class="text-lg mt-2 animate-pulse">Researcher | Engineer | Educator</p>
   </header>
 
   <main class="max-w-3xl mx-auto p-6 animate-fade">
     <section class="mb-8">
-      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">🌐 Select Language</h2>
-      <select id="lang-select" class="bg-slate-800 text-white p-2 rounded">
-        <option value="es">Español</option>
-        <option value="en">English</option>
-      </select>
-    </section>
-
-    <section class="mb-8" lang="es">
-      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">🌱 Sobre mí</h2>
-      <p>Doctor en Ingeniería, docente e investigador en tecnologías como Fog Computing, robótica, e innovación educativa. Fundador de Eurekamps, plataforma educativa abierta.</p>
-    </section>
-    <section class="mb-8 hidden" lang="en">
       <h2 class="text-2xl text-cyan-300 font-semibold mb-2">🌱 About Me</h2>
       <p>PhD in Engineering, educator and researcher in technologies like Fog Computing, robotics, and educational innovation. Founder of Eurekamps, an open educational platform.</p>
     </section>
 
-    <!-- El resto de las secciones seguirán aquí tal como están -->
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">🎓 Academic Background</h2>
+      <ul class="list-disc list-inside">
+        <li>Postdoc in Human-Robot Interaction – Italian Institute of Technology</li>
+        <li>PhD in Engineering – Bar Ilan University, Israel</li>
+        <li>Master’s in Educational Technology and Software Engineering – University of Alcalá</li>
+        <li>Computer Engineering Degree – University of Alcalá</li>
+      </ul>
+    </section>
 
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">💼 Work Experience</h2>
+      <ul class="list-disc list-inside">
+        <li>Professor – Community of Madrid, U-TAD, Camilo José Cela</li>
+        <li>Postdoc Researcher in European Projects (VOJEXT, APRIL)</li>
+        <li>Project Manager & Tech Lead – BBVA, Santander Bank</li>
+        <li>Mobile Games Developer – J2ME for Nokia</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">📚 Publications & Awards</h2>
+      <ul class="list-disc list-inside">
+        <li>10+ papers on Fog Computing, AI vision, and mobile radar</li>
+        <li>1st Prize Orange UK (2009) – “Visual Shopping” app</li>
+        <li>Recognition at MIPTV Cannes 2013</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">🌐 Projects & Networks</h2>
+      <ul class="list-disc list-inside">
+        <li><a class="text-blue-400 hover:underline" href="https://eurekamps.com">Eurekamps</a></li>
+        <li><a class="text-blue-400 hover:underline" href="https://www.youtube.com/@Eurekamps">YouTube Channel</a></li>
+        <li><a class="text-blue-400 hover:underline" href="https://www.linkedin.com/in/4yony4/">LinkedIn Profile</a></li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">📬 Contact</h2>
+      <p>Email: <a class="text-blue-400 hover:underline" href="mailto:4yony4@gmail.com">4yony4@gmail.com</a></p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">🚀 Latest Repositories</h2>
+      <div id="repos" class="space-y-4"></div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">📝 Blog</h2>
+      <ul class="list-disc list-inside">
+        <li><a class="text-blue-400 hover:underline" href="https://www.youtube.com/watch?v=mHKuf4MhtT0" target="_blank">How I Introduce Flutter in Class (YouTube)</a></li>
+        <li><a class="text-blue-400 hover:underline" href="https://eurekamps.com/blog/robotica-aprendizaje-basado-en-proyectos" target="_blank">Robotics & Project-Based Learning (Eurekamps)</a></li>
+        <li><a class="text-blue-400 hover:underline" href="https://eurekamps.com/blog/fog-computing-nube" target="_blank">Fog Computing: Beyond the Cloud (Eurekamps)</a></li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">💬 Testimonials</h2>
+      <blockquote class="border-l-4 border-cyan-400 pl-4 italic text-slate-300">"Yony's classes completely changed the way I see programming." – U-TAD Student</blockquote>
+      <blockquote class="border-l-4 border-cyan-400 pl-4 italic text-slate-300 mt-4">"A committed mentor, always willing to help." – VOJEXT Project Collaborator</blockquote>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl text-cyan-300 font-semibold mb-2">📨 Send Me a Message</h2>
+      <form action="https://formspree.io/f/mjvnjrpg" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="Your name" required class="w-full p-2 bg-slate-800 text-white rounded" />
+        <input type="email" name="email" placeholder="Your email" required class="w-full p-2 bg-slate-800 text-white rounded" />
+        <textarea name="message" placeholder="Write your message" rows="5" required class="w-full p-2 bg-slate-800 text-white rounded"></textarea>
+        <button type="submit" class="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded">Send</button>
+      </form>
+    </section>
   </main>
 
   <footer class="text-center text-slate-400 p-6 bg-slate-800">
@@ -62,18 +120,10 @@
         const container = document.getElementById("repos");
         data.forEach(repo => {
           const el = document.createElement("div");
-          el.innerHTML = `<a href="${repo.html_url}" class="text-blue-400 hover:underline">${repo.name}</a> — <span class="text-slate-400">${repo.description || "Sin descripción"}</span>`;
+          el.innerHTML = `<a href="${repo.html_url}" class="text-blue-400 hover:underline">${repo.name}</a> — <span class="text-slate-400">${repo.description || "No description"}</span>`;
           container.appendChild(el);
         });
       });
-
-    // Language switcher
-    document.getElementById('lang-select').addEventListener('change', e => {
-      const lang = e.target.value;
-      document.querySelectorAll('[lang]').forEach(el => {
-        el.classList.toggle('hidden', el.getAttribute('lang') !== lang);
-      });
-    });
   </script>
 </body>
 </html>
